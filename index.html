@@ -135,6 +135,16 @@
 
 
 
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?13d8be875832ffb4d206875647891643";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
 
 
 
@@ -261,6 +271,320 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/02/07/git-https-change-account/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="iapasserby">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="http://odwkcl9ja.bkt.clouddn.com/201609241348.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="iapasserby's Blog">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="iapasserby's Blog" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/02/07/git-https-change-account/" itemprop="url">
+                  github https模式下切换账号
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-07T14:06:43+08:00">
+                2017-02-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/git/" itemprop="url" rel="index">
+                    <span itemprop="name">git</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/02/07/git-https-change-account/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/07/git-https-change-account/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/02/07/git-https-change-account/" class="leancloud_visitors" data-flag-title="github https模式下切换账号">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>​    偶然从实践者论坛上看到了如何用Hexo+Next+Github搭建博客的文章，参照文章一路过来也算顺利，因为之前一直用的另一个账号做的Demo，后面遇到用自己账号来正式搭建后部署 hexo d 显示权限有问题，因为之前用https登录过，所以系统默认会以此账号上传。</p>
+<h2 id="多账号切换问题"><a href="#多账号切换问题" class="headerlink" title="多账号切换问题"></a>多账号切换问题</h2><p>​    因为我有两个github账号，所以在我用A账号登录过后再用B账号来部署就会出现权限问题。百度谷歌了很久看到的都是说通过<strong>SSH来实现多账号之间的切换</strong> PUSH。关于Https方式的文章少之又少，而我想采用<strong>Https来实现多账号切换</strong>，所以始终不得其法。</p>
+<p>​    偶然从一个帖子上看到GIthub官网关于https登录的说明，在这个说明的底部放了一个相关文章的链接，讲得就是https情况下怎么去更新切换账号问题，豁然开朗，原来需要通过MAC下的钥匙串管理工具去删除旧的账号就行了，链接如下：<a href="https://help.github.com/articles/updating-credentials-from-the-osx-keychain/" target="_blank" rel="external">https://help.github.com/articles/updating-credentials-from-the-osx-keychain/</a> 。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/02/07/Hello-2017/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="iapasserby">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="http://odwkcl9ja.bkt.clouddn.com/201609241348.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="iapasserby's Blog">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="iapasserby's Blog" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/02/07/Hello-2017/" itemprop="url">
+                  Hello 2017
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-07T14:06:16+08:00">
+                2017-02-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/02/07/Hello-2017/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/07/Hello-2017/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/02/07/Hello-2017/" class="leancloud_visitors" data-flag-title="Hello 2017">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>​    转眼已经是2017年过了农历春节后开始上班了，总感觉毕业参加工作还在不久前，时间真的过的很快。我对于时间的流逝是很有急迫感的，总觉得去年成长还不够快，没达到自己理想的状态，春节期间也一直在想自己是不是也应该写一些一年目标啥的来督促自己，所以决定以此开笔，以后有想记录的就多多记笔记，争取多记录写技术上遇到问题后解决的思路和过程，生活中的感悟等。</p>
+<h2 id="回顾2016"><a href="#回顾2016" class="headerlink" title="回顾2016"></a>回顾2016</h2><p>​    2016年5月份参加工作，从此也从学生身份换成了社会人士身份，没有了之前的自由和闲适，同时也更多的时间花在了上班和加班上。但是，对于自己的成长和学习还是不能放弃的，白天工作干活，晚上加班回来也会看些公众号和书，时间珍贵，进度并不快，感受到了学习带来的快乐。收起了出去浪的心，竟然开始喜欢安静的呆着享受不多的时光。</p>
+<h3 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h3><p>​    作为新人参加工作一开始的感受总是不够感受的，我选择去适应和学习，先对环境和流程摸熟悉了再去思考，时间不够见解应该也是不到位的。作为iOS开发，之前一直以为是做APP上架，并没有想到自己会做SDK这一层，也很偶然竟然做起了SDK开发，当然也做了APP，只是深度方面来说还有点欠缺，因为产品是以提供SDK服务为主。反倒是SDK底层需要学习的东西比较多，我不知道这是好事还是坏事，虽然之前做C/C++开发接触的大部分都是底层。</p>
+<p>​    而对于一家以做云客服为主业的公司来说，当然移动端的需求就会变得不稳定，因为SDK稳定了就行了，而对于我来说我觉得自己还是个新人，所以紧凑的开发进度会使我更好的成长，这一点我的紧迫感也很强，总是希望通过不停的去实践来学习，这样会更明确一点，而漫无目的的学习会很不可持续性。</p>
+<p>​    所以在2017年，要更深入的去学习iOS开发，以及想顺便学一点JavaScript在移动端的应用。</p>
+<h3 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h3><p>​    2016年总体来说应该是阅读量比较多的一年，在上班之前因为也已经完成了毕业答辩，所以有时间看了很多书，而参加工作只有也每天都会看一点，保持着一个缓慢的速度，一个月也能看1-2本书，所以对于这一点我还是比较满意的。</p>
+<p>​    而对于看书类型方面，我就比较杂了，从世界观到方法论，我都有看，还看了经济学数目，人物传记等，有时候感觉太杂了。所以2017年准备专一点，除了工作需要的技术书外大致方向往经商类和管理类多看点，文学类要偏少了，尤其是看着没那么有意思的书，要懂得取舍和快读。</p>
+<h2 id="展望2017"><a href="#展望2017" class="headerlink" title="展望2017"></a>展望2017</h2><h3 id="工作-1"><a href="#工作-1" class="headerlink" title="工作"></a>工作</h3><p>​    2017是完整工作的第一年，所以应该重在打基础和成长，基于去年的情况，今年要在iOS底层更深入，在做需求时要有独立担当，能想方案，想架构，懂优化，逐步往高层次走。同时，在空的时候学习前端技术，能有机会做一些需求最好，结合iOS和JavaScript应用，在这两端结合方面做一些研究。当然，有想法的时候尝试做一个自己的APP上架。</p>
+<p>阅读</p>
+<p>​    人这一生，唯一不能停的就是学习，阅读。今年的目标就是更专，让财商类知识能够为自己带来额外的现金流。没有定具体的数目，因为床边的两叠书就已经足以看个一两年了。</p>
+<p>​    刚开始写的也比较简单，不过，只要是开始总是好的。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
   <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/02/06/hello-world/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -339,11 +663,32 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/02/06/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/06/hello-world/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
 
           
+          
+             <span id="/2017/02/06/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -444,7 +789,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -453,7 +798,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -462,7 +807,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -585,28 +930,37 @@
 
   
 
+  
+    
+  
 
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"iapasserby"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
 
+  
+    
+    
+    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/js/src/hook-duoshuo.js"></script>
   
 
 
 
 
-	
 
 
 
 
-
-  
-
-
-
-
-
-  
-
-  
 
 
 
@@ -617,6 +971,113 @@
   
 
   
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("HK1792iNavnsmaJY7mAKvxcD-gzGzoHsz", "3twqjnR4KJHKmLo9aVPVXgMy");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
 
   
 
